@@ -1,15 +1,15 @@
-"number1 = 10" 
-"number2 = 5"
+# Define variables
+number1 = 10
+number2 = 5
 
-b = "number1" - "number2"
-print(b)
+# Calculate sum
+sum_result = number1 + number2
+print(f"Sum of {number1} and {number2} is {sum_result}")
 
-x = "number1" *" number2" 
-print(x)
+# Calculate difference
+difference_result = number1 - number2
+print(f"Difference of {number1} and {number2} is {difference_result}")
 
-z = "number1" + "number2" 
-print(z)
-
-Subtraction of number1 and number2 is 5
-Multiplication of mumber1 and number2 is 50
-Addition of number1 and number2 is 15
+# Calculate product
+product_result = number1 * number2
+print(f"Product of {number1} and {number2} is {product_result}")
