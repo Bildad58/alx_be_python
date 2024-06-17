@@ -1,0 +1,10 @@
+# define variable
+
+length = 10
+width = 5
+
+# calculate area
+
+area = lenth * Width 
+
+print (area)
