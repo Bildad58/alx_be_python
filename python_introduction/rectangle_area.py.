@@ -3,8 +3,10 @@
 length = 10
 width = 5
 
-# calculate area
+# calculate area of rectangle
 
 area = lenth * Width 
 
-print (area)
+#print the result
+
+print(f"The area of the rectangle is: {area}")
