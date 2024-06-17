@@ -5,7 +5,7 @@ width = 5
 
 # calculate area of rectangle
 
-area = lenth * Width 
+area = length * Width 
 
 #print the result
 
