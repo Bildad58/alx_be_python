@@ -1,9 +1,8 @@
-#define variable
+# Define variable
 hours = 2
-hour = 3600 seconds
 
-# calculating the conversion to seconds
-seconds = hours * hour
+# Calculate number of seconds in the given hours
+seconds = hours * 3600
 
-#print the result
-print(f"second is:{seconds"})
+# Print the result
+print(f"{hours} hour(s) is {seconds} seconds.")
