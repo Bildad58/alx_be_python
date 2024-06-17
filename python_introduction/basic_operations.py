@@ -10,6 +10,6 @@ print(x)
 z = "number1" + "number2" 
 print(z)
 
-Addition of 10 and 5 is 15
-Subtraction of 10 and 5 is 5
-Multiplication of 10 and 5 is 50
+Subtraction of number1 and number2 is 5
+Multiplication of mumber1 and number2 is 50
+Addition of number1 and number2 is 15
