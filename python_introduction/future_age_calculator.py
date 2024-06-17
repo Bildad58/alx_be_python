@@ -1,5 +1,5 @@
 # define variables
-how old are you = input('enter your age)
+how old are you = input ('enter your age:')
 
 #calculate age in 2050
 age = 19
