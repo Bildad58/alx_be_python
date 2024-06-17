@@ -1,13 +1,10 @@
-
-# variables
+# Define variables
 principal = 1000
 rate = 0.05
-time = 3
+time =3  # Assignment with spaces around the equals sign
 
-principal = p
-rate = r
-time = t
+# Calculate simple interest
+interest = principal * rate * time
 
-i = p * r * t
-
-print(i)
+# Print the result
+print(f"The simple interest is: {interest}")
