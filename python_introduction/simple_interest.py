@@ -1,6 +1,13 @@
-principal=i = 1000
-rate=r = 0.05
-time=t = 3
 
-simple_interest = p*r*t
-print (simple_interest)
+# variables
+principal = 1000
+rate = 0.05
+time = 3
+
+principal = p
+rate = r
+time = t
+
+i = p * r * t
+
+print(i)
