@@ -1,7 +1,7 @@
 "number1 = 10" 
 "number2 = 5"
 
-b = "number"1 - "number2"
+b = "number1" - "number2"
 print(b)
 
 x = "number1" *" number2" 
