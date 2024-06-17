@@ -1,8 +1,8 @@
 "number1 = 10" 
 "number2 = 5"
 
-y = "number"1 - "number2"
-print(y)
+b = "number"1 - "number2"
+print(b)
 
 x = "number1" *" number2" 
 print(x)
