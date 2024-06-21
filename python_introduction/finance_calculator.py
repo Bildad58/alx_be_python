@@ -5,5 +5,5 @@ y = input ("Enter your total monthly expenses: ")
 Monthly_savings = " x - y "
 
 #Project Annual Savings
-Projected_Savings = float('Monthly_Savings' * 12 + ('Monthly_Savings' * 12 * 0.05))
+Projected_Savings = ('Monthly_Savings' * 12 + ('Monthly_Savings' * 12 * 5))
 print (Projected_Savings)
