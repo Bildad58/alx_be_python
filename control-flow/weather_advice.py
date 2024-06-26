@@ -1,5 +1,5 @@
 Weather = input("What's the Weather like today? (sunny/rainy/cold): ")
-
+def main():
 if Weather == "sunny" :
     print("Wear a t-shirt and sunglasses.")
 elif Weather == "rainy" :
