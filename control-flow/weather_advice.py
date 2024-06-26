@@ -9,4 +9,5 @@ elif Weather == "cold" :
 else :
      print("Sorry, I don't have recommendations for this weather")  
     
-print()
+if __name__ == "__main__":
+    main()
