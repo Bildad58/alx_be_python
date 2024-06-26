@@ -1,5 +1,8 @@
+#weatheradvice
+#prompt user to input current weather.
 Weather = input("What's the Weather like today? (sunny/rainy/cold): ")
-def main():
+
+#provide proper clothing recomendation based on weather.
 if Weather == "sunny" :
     print("Wear a t-shirt and sunglasses.")
 elif Weather == "rainy" :
@@ -9,5 +12,4 @@ elif Weather == "cold" :
 else :
      print("Sorry, I don't have recommendations for this weather")  
     
-if __name__ == "__main__":
-    main()
+
