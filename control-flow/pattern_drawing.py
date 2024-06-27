@@ -4,8 +4,8 @@ columns = int(input("Enter number of columns:"))
 symbol = input("Enter symbol to use:")
 
 # using the loops
-for x in range (rows):
-    for y in range (columns):
+while x in range (rows):
+    while y in range (columns):
         print(symbol, end='')
     print()
 
