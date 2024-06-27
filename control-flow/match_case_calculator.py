@@ -1,21 +1,20 @@
-#simple calcualtor with match case
+# match_case_calculator.py
 
 def main():
-    #prompt the user to input a number
 
-    num1 = input("Enter the first number:")
-    num2 = input("Enter the second number:")
-    
-    #prompt the user to input the operation they would likke to use
-    operation = input("Enter operation of choice (+, -, *, /):")
-    #formulate a match case statement
+        # Prompt the user to enter two numbers
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
 
-     match operation:
-        #matching case statement
-          case '+':
+        # Prompt the user to choose an operation
+        operation = input("Choose the operation (+, -, *, /): ").strip()
+
+        # Perform the calculation using match-case
+        match operation:
+            case '+':
                 result = num1 + num2
                 print(f"The result is {result}.")
-          case '-':
+            case '-':
                 result = num1 - num2
                 print(f"The result is {result}.")
             case '*':
@@ -23,18 +22,14 @@ def main():
                 print(f"The result is {result}.")
             case '/':
                 if num2 == 0:
-                    print(f"Cannot divide by zero.")
+                    print("Cannot divide by zero.")
                 else:
                     result = num1 / num2
                     print(f"The result is {result}.")
-             case _:
+            case _:
                 print("Invalid operation. Please choose one of (+, -, *, /).")
     except ValueError:
         print("Invalid input. Please enter valid numbers.")
-    #print result 
-        result()
-        Print("The result is:" , result)
 
 if __name__ == "__main__":
     main()
-
