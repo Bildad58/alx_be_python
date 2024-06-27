@@ -27,6 +27,10 @@ def main():
                 else:
                     result = num1 / num2
                     print(f"The result is {result}.")
+             case _:
+                print("Invalid operation. Please choose one of (+, -, *, /).")
+    except ValueError:
+        print("Invalid input. Please enter valid numbers.")
     #print result 
         result()
         Print("The result is:" , result)
