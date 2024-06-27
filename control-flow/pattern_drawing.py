@@ -1,7 +1,5 @@
 #prompt user to enter the following
-rows = int(input("Enter number of rows:"))
-columns = int(input("Enter number of columns:"))
-symbol = input("Enter symbol to use:")
+size = int(input("Enter the size of the pattern:")
 
 # using the loops
 while x in range (rows):
