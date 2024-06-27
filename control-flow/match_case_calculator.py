@@ -1,29 +1,35 @@
-#simple calcualtor with match case
-
-from unittest import result
-
+# match_case_calculator.py
 
 def main():
-    #prompt the user to input a number
 
-    num1 = input("Enter the first number:")
-    num2 = input("Enter the second number:")
-    #prompt the user to input the operation they would likke to use
-    operation = input("Enter operation of choice (+, -, *, /):")
-    #formulate a match case statement
+        # Prompt the user to enter two numbers
+        num1 = (input("Enter the first number: "))
+        num2 = (input("Enter the second number: "))
 
-    def Operation(math):
-        #matching case statement
-        match math:
-            case "+" : return "num1" + "num2"
-            case "*" : return "num1" * "num2"
-            case "/" : return "num1" / "num2"
-            case "-" : return "num1" - "num2"
-            case _ : return  "no such operation"
-    #print result 
-        result()
-        Print("The result is:" , result)
+        # Prompt the user to choose an operation
+        operation = input("Choose the operation (+, -, *, /): ")
+
+        # Perform the calculation using match-case
+        match operation:
+            case '+':
+                result = num1 + num2
+                print("The result is {result}.")
+            case '-':
+                result = num1 - num2
+                print("The result is {result}.")
+            case '*':
+                result = num1 * num2
+                print("The result is {result}.")
+            case '/':
+                if num2 == 0:
+                    print("Cannot divide by zero.")
+                else:
+                    result = num1 / num2
+                    print("The result is {result}.")
+            case _:
+                print("Invalid operation. Please choose one of (+, -, *, /).")
+    except ValueError:
+        print("Invalid input. Please enter valid numbers.")
 
 if __name__ == "__main__":
     main()
-
