@@ -1,5 +1,5 @@
 #prompt user to enter the following
-size = input("Enter size of pattern:")
+size = int(input("Enter size of pattern:"))
 rows = int(input("Enter number of rows:"))
 columns = int(input("Enter number of columns:"))
 symbol = input("Enter symbol to use:")
