@@ -1,9 +1,9 @@
 #prompt the user the input the following
 def main():
   
-  task = input("Enter your task:")
-  priority = input("Priority (high/medium/low):")
-  time_bound =input("Is it time-bound? (yes/no:")
+  Task = input("Enter your task:")
+  Priority = input("Priority (high/medium/low):")
+  Time_bound =input("Is it time-bound? (yes/no:")
 
 #use match case to react to the inputs
   match priority:
