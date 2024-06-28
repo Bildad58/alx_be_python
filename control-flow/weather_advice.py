@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+x =" hello "
+strip(x)
+=======
 # weather_advice.py
 
 def main():
@@ -18,3 +22,4 @@ if __name__ == "__main__":
     main()
 
 
+>>>>>>> 95d19eb34c98901e80e832c436b4cff7d4b132d2
