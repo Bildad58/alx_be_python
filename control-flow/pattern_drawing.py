@@ -1,9 +1,10 @@
 #prompt user to enter the following
-size = int(input("Enter the size of the pattern:")
+rows = int(input("Enter number of rows:"))
+columns = int(input("Enter number of columns:"))
+symbol = input("Enter symbol to use:")
 
 # using the loops
-while x in range (rows):
-    while y in range (columns):
+for x in range (rows):
+    for y in range (columns):
         print(symbol, end='')
     print()
-
