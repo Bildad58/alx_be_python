@@ -6,7 +6,7 @@ def main():
   Time_bound =input("Is it time-bound? (yes/no:")
 
 #use match case to react to the inputs
-  match priority:
+  match Priority:
     case 'high':
         if 'yes':
          print("Reminder: 'Finish project report' is a high priority task that requires immediate attention today!")
