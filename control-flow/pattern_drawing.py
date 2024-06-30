@@ -1,11 +1,15 @@
-#prompt user to enter the following
-rows = int(input("Enter number of rows:"))
-columns = int(input("Enter number of columns:"))
-symbol = input("Enter symbol to use:")
+# prompt the use to input size of pattern
+size = int(input("Enter size of pattern:"))
 
-# using the loops
-for x in range (rows):
-    for y in range (columns):
-        print(symbol, end='')
+# begin count of row
+row = 0
+
+# iterate through each row
+while row<size:
+    #print the asterisks
+    for _ in range (4):
+     #print new line
+     print("*" , end='')
+    row += 1
     print()
-
+~
