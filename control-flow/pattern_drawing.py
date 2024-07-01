@@ -1,9 +1,20 @@
-#prompt user to enter the following
-size = int(input("Enter the size of the pattern:")
+# pattern_drawing.py
 
-# using the loops
-while x in range (rows):
-    while y in range (columns):
-        print(symbol, end='')
-    print()
+def draw_square_pattern(size):
+    row = 0
+    while row < size:
+        for _ in range(size):
+            print("*", end="")
+        print()
+        row += 1
 
+def main():
+    try:
+        size = int(input("Enter the size of the pattern: "))
+        if size <= 0:
+            print("Please enter a positive integer.")
+        else:
+            draw_square_pattern(size)
+   
+if __name__ == "__main__":
+    main()
