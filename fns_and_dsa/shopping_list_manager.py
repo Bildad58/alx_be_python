@@ -8,28 +8,30 @@ def display_menu():
     print("4. Exit")
 
 def main():
-    shopping_list = []
+    shopping_list = ['apple']
     while True:
         display_menu()
         choice = input("Enter your choice: ")
 
         if choice == '1':
             # Prompt for and add an item
-            shopping_list.append()
-            print("shopping_list")
+            item = input("Enter an item to be added:")
+            shopping_list.append('juice')
+            print(f"Shopping list manager: {item}")
             pass
 
         elif choice == '2':
             # Prompt for and remove an item
-            shopping_list.remove()
-            print ("shopping_list")
+            item = input("Enter an item to be removed")
+            shopping_list.remove('apple')
+            print (f"Shopping list manager: {item}")
             pass
         elif choice == '3':
              #Display the shopping list
             for items in shopping_list:
                 print("shopping_list")
             pass
-        
+
         elif choice == '4':
             print("Goodbye!")
             break
@@ -38,5 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
