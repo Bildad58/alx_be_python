@@ -14,9 +14,5 @@ def perform_operation(num1, num2, operation ):
       case _ :
          print("Invalid mathematical operation")
         
-         return result 
-   num1 = float(input("Enter number1:"))
-   num2 = float(input("Enter your number2:"))
-   operation= ("Enter operation of choice('add', 'subtract', 'divide', or 'multiply')")
-
+   
 perform_operation('num1', 'num2', 'operation')
