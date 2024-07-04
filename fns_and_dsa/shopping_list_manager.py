@@ -11,7 +11,7 @@ def main():
     shopping_list = ['apple']
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = int(input("Enter your choice: "))
 
         if choice == '1':
             # Prompt for and add an item
