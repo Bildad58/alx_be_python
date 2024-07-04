@@ -15,7 +15,7 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            item = input("Enter the item to add:[]")
+            item = input("Enter the item to add:['apple]")
             shopping_list.append('juice')
             print(f"Shopping_list_manager: {item}")
             pass
