@@ -11,7 +11,7 @@ def perform_operation(num1, num2, operation):
     elif operation == 'divide':
 <<<<<<< HEAD
          return num1 / num2 
-    if num2 ==  0:
+    if num2 / ==  0:
          print("Enter a whole number")
     else:
        print("Invalid number and operation:")
