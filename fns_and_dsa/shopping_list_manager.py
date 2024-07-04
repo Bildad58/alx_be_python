@@ -17,14 +17,14 @@ def main():
             # Prompt for and add an item
             item = input("Enter an item to be added:")
             shopping_list.append('juice')
-            print(f"Shopping list manager: {item}")
+            print(f"Shopping_list_manager: {item}")
             pass
 
         elif choice == '2':
             # Prompt for and remove an item
             item = input("Enter an item to be removed")
             shopping_list.remove('apple')
-            print (f"Shopping list manager: {item}")
+            print (f"Shopping_list_manager: {item}")
             pass
         elif choice == '3':
              #Display the shopping list
