@@ -19,6 +19,7 @@ def main():
             shopping_list.append('juice')
             print(f"Shopping_list_manager: {item}")
             pass
+display_menu()
 
         elif choice == '2':
             # Prompt for and remove an item
