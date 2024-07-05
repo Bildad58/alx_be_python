@@ -6,13 +6,22 @@ def display_current_datetime():
 
 display_current_datetime()
 
-number_of_days = int(input("Enter the number of days to add to the current date:")
 
 def calculate_future_date(YYYY, MM, DD):
-       current_date = datetime.datetime(2024, 7, 5, 12, 45, 23, )
- 
-       time_delta = datetime.timedelta(days= {number_of_days})
-       future_date = current_date + time_delta()
-       print(f"Future date: {future_date}")
+       current_date = datetime.now()
+       Delt  = timedelta(days= number_of_days)
+       future_date = current_date + Delt
+       formatted_future_date = future_date.strftime("%Y-%m-%d")
+       print(f"Future date after days: {formatted_future_date}")
+       
+number_of_days = int(input("Enter the number of days to add to the current date:"))
 
-calculate_future_date(2024, 7, 5)
+
+# Display the current date and time
+display_current_datetime()
+
+# Calculate and display the future date
+calculate_future_date(2024, 6, 12)
+
+result = calculate_future_date
+print(result)
