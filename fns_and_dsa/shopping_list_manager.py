@@ -11,14 +11,22 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = int(input("Enter your choice: "))
+        choice = int(input("Enter your choice: []"))
 
         if choice == '1':
             # Prompt for and add an item
+<<<<<<< HEAD
             item = input("Enter the item to add: ")
             shopping_list.append()
             print(f"Shopping_list_manager: {item}")
             
+=======
+            item = input(Enter the item to add:  )
+            shopping_list.append('juice')
+            print(f"Shopping_list_manager: {item}")
+            pass
+display_menu()
+>>>>>>> aeff786b5d2434f3791224b688a090cfd6befd3f
 
         elif choice == '2':
             # Prompt for and remove an item
