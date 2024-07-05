@@ -8,14 +8,14 @@ def display_menu():
     print("4. Exit")
 
 def main():
-    shopping_list = ['apple']
+    shopping_list = []
     while True:
         display_menu()
         choice = int(input("Enter your choice: "))
 
         if choice == '1':
             # Prompt for and add an item
-            item = input(['']Enter the item to add: [''])
+            item = input("Enter the item to add: )
             shopping_list.append('juice')
             print(f"Shopping_list_manager: {item}")
             pass
