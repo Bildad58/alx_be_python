@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def perform_operation(num1, num2, operation):
     if operation =='add':
         return num1 + num2
@@ -25,3 +26,6 @@ result = perform_operation(num1, num2, operation)
 print(f"Result: {result}")
 
 perform_operation(num1, num2, operation)
+=======
+
+>>>>>>> 2b7f0c2338ccba29f1ea0fb6569a2847ed4f077f
