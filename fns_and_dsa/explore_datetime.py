@@ -1,4 +1,5 @@
-import datetime
+from datetime import datetime , timedelta
+
 def display_current_datetime():   
     current_date = datetime.datetime(2024, 7, 5, 12, 45, 23, )
     print(f"Current date and time: {current_date}")
