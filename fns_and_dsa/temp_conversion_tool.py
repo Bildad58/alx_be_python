@@ -25,6 +25,6 @@ def main():
         print(f"{Temperature}°F if {converted_temperature }°C")
 
     else:
-        print("Invalid Temperature or Unit!")
+        print("nvalid temperature. Please enter a numeric value.")
 main()
         
