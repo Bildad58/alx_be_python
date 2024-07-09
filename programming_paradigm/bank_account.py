@@ -7,9 +7,9 @@ class BankAccount:
     def deposit(self,amount):
         if amount > 0:
             self.account_balance = amount + self.account_balance
-            return f"Deposited: ${amount}.0"
+            return self.account_balance
         else:
-            print(f"{amount}, should be greater than {self.initial_balance}"
+            print(f"{amount}, should be greater than {self.initial_balance}")
 
     def withdraw(self,amount):
         if amount > self.account_balance:
