@@ -18,9 +18,6 @@
         else:
             print(f"{amount}, should be less than {self.account_balance}")
 
-<<<<<<< HEAD
-
-=======
     def display_balance(self):
         print(f"Current Balance: {self.account_balance}")
->>>>>>> 560b11a797cf947604fd2e82e43482e308bfab90
+
