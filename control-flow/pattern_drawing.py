@@ -1,28 +1,22 @@
-<<<<<<< HEAD
-# prompt the use to input size of pattern
-size = int(input("Enter size of pattern:"))
+# pattern_drawing.py
 
-# begin count of row
-row = 0
+def draw_square_pattern(size):
+    row = 0
+    while row < size:
+        for _ in range(size):
+            print("*", end="")
+        print()
+        row += 1
 
-# iterate through each row
-while row<size:
-    #print the asterisks
-    for _ in range (4):
-     #print new line
-     print("*" , end='')
-    row += 1
-=======
-#prompt user to enter the following
-size = int(input("Enter size of pattern:"))
-rows = int(input("Enter number of rows:"))
-columns = int(input("Enter number of columns:"))
-symbol = input("Enter symbol to use:")
-size == rows
-# using the loops
-for x in range (rows):
-    for y in range (columns):
-        print(symbol, end='')
->>>>>>> 0dd36fee532f7c0ccc30cd161fc661f861395b23
-    print()
-~
+def main():
+    try:
+        size = int(input("Enter the size of the pattern: "))
+        if size <= 0:
+            print("Please enter a positive integer.")
+        else:
+            draw_square_pattern(size)
+    except ValueError:
+        print("Invalid input. Please enter a positive integer.")
+
+if __name__ == "__main__":
+    main()

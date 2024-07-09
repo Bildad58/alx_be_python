@@ -17,6 +17,3 @@ match priority:
         if time_bound == 'yes'or 'no':   
             print('Note:'f"{task}, is a low priority task. Consider completing it when you have free time.")
         
-
-            
-
