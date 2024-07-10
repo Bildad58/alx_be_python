@@ -15,4 +15,4 @@ def safe_divide(numerator, denominator):
         print(f"The result of the division is {result}")
 
 
-safe_divide(90,9)
+safe_divide(12,2)
