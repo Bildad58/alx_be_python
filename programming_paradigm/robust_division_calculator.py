@@ -1,5 +1,8 @@
 def safe_divide(numerator, denominator):
     try:
+        numerator = float(numerator )
+        denominator = float(denominator)
+
         result = numerator / denominator 
           
     except ZeroDivisionError:
@@ -11,7 +14,5 @@ def safe_divide(numerator, denominator):
     else:
         print(f"The result of division is {result}")
 
-numerator = float(input("Enter a number: "))
-denominator = float(input("Enter a number: "))
 
-safe_divide(numerator,denominator)
+safe_divide(90,4)
