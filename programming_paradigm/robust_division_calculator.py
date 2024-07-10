@@ -11,7 +11,7 @@ def safe_divide(numerator, denominator):
     else:
         print(f"The result of division is {result}")
 
-numerator = float(input("Enter a number: "))
-denominator = float(input("Enter a number: "))
+numerator = float(input("numerator: "))
+denominator = float(input("denominator: "))
 
 safe_divide(numerator,denominator)
