@@ -4,7 +4,6 @@ def safe_divide(numerator, denominator):
         denominator = float(denominator)
 
         result = numerator / denominator 
-
         print(f"The result of division is {result}")
           
     except ZeroDivisionError:
@@ -13,4 +12,6 @@ def safe_divide(numerator, denominator):
     except ValueError:
         print("Error: Please enter numeric values only.")
     
-safe_divide(90,6)
+    
+       
+safe_divide(90,0)
