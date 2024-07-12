@@ -11,13 +11,13 @@ class Library:
    def add_book(self,book):
       self.book = [book]
 
-   def check_out_book(self):
+   def check_out_book(self,title):
       if self.check_out_book:
          self.check_out_book = title
          return True
       return False
 
-   def return_book(self,title):
+   def return_book(self)
     if self.return_book:
        self._books = title
        return
