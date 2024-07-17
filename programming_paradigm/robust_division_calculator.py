@@ -16,8 +16,8 @@ def safe_divide(numerator, denominator):
         return"Error: Please enter numeric values only."
 
     except Exception as e:
-        print(f"Unexpected error occured: {str(e)}")
-    return f"The result of the division is {result:1f}"
+       return e
+    
 
 
 
