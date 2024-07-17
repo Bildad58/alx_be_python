@@ -19,7 +19,8 @@ def safe_divide(numerator, denominator):
         print(f"Unexpected error occured: {str(e)}")
     return f"The result of the division is {result:1f}"
 
-    
+
+
             
 
 
