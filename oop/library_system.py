@@ -27,12 +27,11 @@ class Library:
     def __init__(self):
         self.books = []
 
-    def add_book(self,books):
-        if isinstance(books,(Book,EBook,PrintBook)):
-            self.books.append(books)
-            return books
+    def add_book(self,book):
+            self.books.append(book)
+            return book
            
 
     def list_books(self):
-        pass
-
+        return self.books
+    
