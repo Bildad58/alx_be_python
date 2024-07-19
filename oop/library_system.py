@@ -31,6 +31,7 @@ class Library:
     books = []
 
     def add_book(self,book):
+        self.book = []
         if isinstance(book, Book):
          self.books.append(book)
         
